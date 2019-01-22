@@ -1,0 +1,18 @@
+{
+    "name": "PHP Basic MCV",
+    "description": "Basic PHP MCV framework for portfolio projects.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    },
+    "require": {
+        "ext-PDO": "^7.2",
+        "delight-im/auth": "^8.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.11.1"
+    }
+}
