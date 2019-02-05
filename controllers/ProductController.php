@@ -6,7 +6,7 @@ use \models\ProductModel;
 
 class ProductController extends BaseController
 {
-    public function index($responseText = ""){
+    public function index($responseText = null){
 
         $product = new ProductModel();
 
